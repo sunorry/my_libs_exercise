@@ -4,7 +4,7 @@
 
 # Ajax #
 
-ajax 返回的东西都是<b>字符串</b>形式，原生 JS 可以用 <code>JSON.parse()</code> 来把字符串转换成 JSON 格式（不要用 eval, 因为它是魔鬼），jQuery 的话直接 dataType: json 就可以了。
+ajax 返回的东西都是<b>字符串</b>形式，原生 JS 可以用 <code>JSON.parse()</code> 来把字符串转换成 JSON 格式（不要用 eval），jQuery 的话直接 dataType: json 就可以了。
 
 HTTP请求方法
 
