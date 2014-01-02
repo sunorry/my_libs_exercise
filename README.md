@@ -1,5 +1,6 @@
 <ul>
   <li>Ajax</li>
+  <li>Regular Expression</li>
 </ul>
 
 # Ajax #
@@ -11,3 +12,7 @@ HTTP请求方法
 GET：会把数据放到 URL 后面(通过网址，网址容量 4k~10k)；有缓存
 
 POST: 通过 http content；容量：2G；无缓存
+
+# Regular Expression #
+
+\b 为单词边界
