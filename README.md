@@ -1,6 +1,7 @@
 <ul>
   <li>Ajax</li>
   <li>Regular Expression</li>
+  <li>Quick Sort</li>
 </ul>
 
 # Ajax #
@@ -16,3 +17,7 @@ POST: 通过 http content；容量：2G；无缓存
 # Regular Expression #
 
 \b 为单词边界
+
+# Quick Sort #
+
+原理： 取中间位置，与左右相比，小的放左边，大的放右边，如此递归。
