@@ -34,7 +34,7 @@ var eventUtil = {
     if(event.preventDefault) {
       event.preventDefault()
     } else {
-      event.returnValue = false;
+      return false;
     },
   },
   stopPropagation: function(event) {
