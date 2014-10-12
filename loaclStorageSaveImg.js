@@ -30,3 +30,21 @@ function get(key) {
   imgObj.src = srcStr;
   document.body.appendChild(imgObj);
 }
+
+
+
+//过期处理
+function set(key, v) {
+  var curTime = new Date().getTime();
+  localStorage.setItem(key, JSON.stringify({data:v,time:curTime});)
+}
+
+function get(key,exp) {
+  var data = localStorage.getItem(key);
+  var dataObj = JSON.parse(data);
+  if(new Date().getTime() - dataObj.time > exp) {
+    console.log('expires');
+  } else {
+    console.log('data='+dataObj.data);
+  }
+}
